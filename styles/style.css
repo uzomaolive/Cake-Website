@@ -1,0 +1,117 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+#header{
+    
+    height: 100px;
+    width: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#icon {
+    color: aliceblue;
+    font-size: 20px;
+    word-spacing: 10px;
+    margin-left: 40px
+
+}
+#logo {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+}
+
+#contact {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    color: #E5BF4A;
+    border: 1px solid #E5BF4A;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 40px;
+}
+#navigation {
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    }
+ #navigation li {
+    float:left;
+    }
+ #navigation a {
+    display:block;
+    text-align:center;
+    width:120px; /* fixed width */
+    text-decoration:none; 
+    font-size: 15px;
+    padding: -10px;
+    color: white;
+    }
+    
+    a:hover{
+        color: burlywood;
+    }
+    .bg-img{
+        margin-top: 80px;
+        height: 800px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+.caption h1 {
+    color: white;
+    margin-top: -500px;
+    margin-left: 150px;
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 41px;
+    line-height: 80px;
+
+}
+
+.caption a {
+background-color: #E5BF4A;
+padding: 20px;
+padding-left: 30px;
+padding-right: 30px;
+text-decoration: none;
+margin-left: 150px;
+color: #0A0A0A !important;
+}
+
+#section3 {
+    margin-top: 400px;
+}
+#section3
+
+#section3 h2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+}
