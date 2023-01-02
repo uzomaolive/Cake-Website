@@ -105,7 +105,15 @@ color: #0A0A0A !important;
 #section3 {
     margin-top: 400px;
 }
-#section3
+#section3 line{
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 2px;
+    z-index: 1;
+    background-color: #E5BF4A;
+
+}
 
 #section3 h2 {
     text-align: center;
@@ -114,4 +122,57 @@ color: #0A0A0A !important;
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
+}
+
+#section3 p {
+color: #E5BF4A;
+text-align: center;
+font-size: 30px;
+padding: 10px;
+}
+
+#section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+}
+#section4 h3{
+color: #E5BF4A;
+    font-family: 'Poiret One', cursive;
+}
+
+#section4 p{
+    
+    font-family: 'Poiret One', cursive;
+
+
+}
+.sec3-left-col {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: 70px;
+    font-family: 'Poiret One', cursive;
+
+   
+}
+
+.sec3-left-col3{
+    width: 900px;
+    margin-left: 60px;
+    margin-right: 70;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+.sec3-right-col {
+    display: flex;
+    width: 80%;
+    margin-right: 80px;
+    padding-left:30px
+
 }
